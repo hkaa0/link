@@ -7,6 +7,10 @@ external-controller: 0.0.0.0:9090
 proxies:
   - {"type":"vmess","name":"TG频道:@hkaa0/英国","server":"144.24.88.101","port":"16833","uuid":"f5425ccf-3946-4fb4-eb24-5393d78a392f","alterId":"0","cipher":"auto","network":"tcp"}
   - {"type":"vmess","name":"TG频道:@hkaa0/澳大利亚","server":"129.154.48.221","port":"37372","uuid":"6f4454a9-e732-46c6-c50f-73f13da31f7b","alterId":"0","cipher":"auto","network":"tcp"}
+  - {"type":"vmess","name":"TG频道:@hkaa0/香港","ws-opts":{"path":"/ray","headers":{"host":"625hk01.fx6688.top"}},"server":"625hk01.fx6688.top","port":"80","uuid":"7f4ff2e1-c08f-35bd-afe7-4a6a386907aa","alterId":"2","cipher":"auto","network":"ws","tls":true}
+  - {"type":"vmess","name":"TG频道:@hkaa0/新加坡_1","ws-opts":{"path":"/"},"server":"159.223.54.93","port":"80","uuid":"d97ee737-7bc0-4dca-acf1-85135ed4d97e","alterId":"0","cipher":"auto","network":"ws"}
+  - {"type":"vmess","name":"TG频道:@hkaa0/新加坡_2","ws-opts":{"path":"/ray","headers":{"host":"626sg01.fx6688.top"}},"server":"626sg01.fx6688.top","port":"80","uuid":"7f4ff2e1-c08f-35bd-afe7-4a6a386907aa","alterId":"2","cipher":"auto","network":"ws","tls":true}
+  - {"type":"vmess","name":"TG频道:@hkaa0/新加坡_3","ws-opts":{"path":"/"},"server":"159.223.54.93","port":"80","uuid":"d97ee737-7bc0-4dca-acf1-85135ed4d97e","alterId":"0","cipher":"auto","network":"ws"}
 proxy-groups:
   - name: 🚀 节点选择
     type: select
@@ -15,6 +19,10 @@ proxy-groups:
       - DIRECT
       - TG频道:@hkaa0/英国
       - TG频道:@hkaa0/澳大利亚
+      - TG频道:@hkaa0/香港
+      - TG频道:@hkaa0/新加坡_1
+      - TG频道:@hkaa0/新加坡_2
+      - TG频道:@hkaa0/新加坡_3
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
@@ -23,6 +31,10 @@ proxy-groups:
     proxies:
       - TG频道:@hkaa0/英国
       - TG频道:@hkaa0/澳大利亚
+      - TG频道:@hkaa0/香港
+      - TG频道:@hkaa0/新加坡_1
+      - TG频道:@hkaa0/新加坡_2
+      - TG频道:@hkaa0/新加坡_3
   - name: 🌍 国外媒体
     type: select
     proxies:
@@ -31,6 +43,10 @@ proxy-groups:
       - 🎯 全球直连
       - TG频道:@hkaa0/英国
       - TG频道:@hkaa0/澳大利亚
+      - TG频道:@hkaa0/香港
+      - TG频道:@hkaa0/新加坡_1
+      - TG频道:@hkaa0/新加坡_2
+      - TG频道:@hkaa0/新加坡_3
   - name: 📲 电报信息
     type: select
     proxies:
@@ -38,6 +54,10 @@ proxy-groups:
       - 🎯 全球直连
       - TG频道:@hkaa0/英国
       - TG频道:@hkaa0/澳大利亚
+      - TG频道:@hkaa0/香港
+      - TG频道:@hkaa0/新加坡_1
+      - TG频道:@hkaa0/新加坡_2
+      - TG频道:@hkaa0/新加坡_3
   - name: Ⓜ️ 微软服务
     type: select
     proxies:
@@ -45,6 +65,10 @@ proxy-groups:
       - 🚀 节点选择
       - TG频道:@hkaa0/英国
       - TG频道:@hkaa0/澳大利亚
+      - TG频道:@hkaa0/香港
+      - TG频道:@hkaa0/新加坡_1
+      - TG频道:@hkaa0/新加坡_2
+      - TG频道:@hkaa0/新加坡_3
   - name: 🍎 苹果服务
     type: select
     proxies:
@@ -52,6 +76,10 @@ proxy-groups:
       - 🎯 全球直连
       - TG频道:@hkaa0/英国
       - TG频道:@hkaa0/澳大利亚
+      - TG频道:@hkaa0/香港
+      - TG频道:@hkaa0/新加坡_1
+      - TG频道:@hkaa0/新加坡_2
+      - TG频道:@hkaa0/新加坡_3
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -76,6 +104,10 @@ proxy-groups:
       - ♻️ 自动选择
       - TG频道:@hkaa0/英国
       - TG频道:@hkaa0/澳大利亚
+      - TG频道:@hkaa0/香港
+      - TG频道:@hkaa0/新加坡_1
+      - TG频道:@hkaa0/新加坡_2
+      - TG频道:@hkaa0/新加坡_3
 rules:
   - DOMAIN-SUFFIX,acl4.ssr,🎯 全球直连
   - DOMAIN-SUFFIX,ip6-localhost,🎯 全球直连
