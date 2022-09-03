@@ -1,9 +1,9 @@
 #
 #-------------------------------------------------------------#
 #  创建者：TG频道:@hkaa0
-#  创建时间：2022-09-02 
+#  创建时间：2022-09-03 
 #  模版：ACL4SSR
-#  节点数量：22
+#  节点数量：14
 #-------------------------------------------------------------#
 #
 mixed-port: 7890
@@ -12,31 +12,20 @@ mode: Rule
 log-level: info
 external-controller: 0.0.0.0:9090
 proxies:
-  - {"type":"ssr","name":"TG@hkaa0🇳🇱1","server":"213.183.59.211","port":9026,"protocol":"origin","cipher":"aes-256-cfb","obfs":"plain","password":"QWDDvVE9npNurQfA"}
-  - {"type":"ssr","name":"TG@hkaa0🇳🇱2","server":"213.183.59.211","port":9030,"protocol":"origin","cipher":"aes-256-cfb","obfs":"plain","password":"GeregetR8cvQHzYr"}
-  - {"type":"ssr","name":"TG@hkaa0🇳🇱3","server":"213.183.59.211","port":9032,"protocol":"origin","cipher":"aes-256-cfb","obfs":"plain","password":"UWZQeLRWnkqgkseq"}
+  - {"type":"ssr","name":"TG@hkaa0🇳🇱1","server":"213.183.59.211","port":9014,"protocol":"origin","cipher":"aes-256-cfb","obfs":"plain","password":"KnJGad3FqTvjqbaX"}
+  - {"type":"ssr","name":"TG@hkaa0🇳🇱2","server":"213.183.59.211","port":9014,"protocol":"origin","cipher":"aes-256-cfb","obfs":"plain","password":"KnJGad3FqTvjqbaX"}
+  - {"type":"ssr","name":"TG@hkaa0🇳🇱3","server":"213.183.59.211","port":9014,"protocol":"origin","cipher":"aes-256-cfb","obfs":"plain","password":"KnJGad3FqTvjqbaX"}
   - {"type":"ssr","name":"TG@hkaa0🇳🇱4","server":"213.183.59.211","port":9014,"protocol":"origin","cipher":"aes-256-cfb","obfs":"plain","password":"KnJGad3FqTvjqbaX"}
-  - {"type":"ssr","name":"TG@hkaa0🇳🇱5","server":"213.183.59.211","port":9006,"protocol":"origin","cipher":"aes-256-cfb","obfs":"plain","password":"FAdUvMJUq5vDgKEq"}
-  - {"type":"ssr","name":"TG@hkaa0🇳🇱6","server":"213.183.59.211","port":9025,"protocol":"origin","cipher":"aes-256-cfb","obfs":"plain","password":"XPtzA9sCug3SPR4c"}
-  - {"type":"ssr","name":"TG@hkaa0🇷🇺7","server":"188.119.64.233","port":21156,"protocol":"origin","cipher":"dummy","obfs":"plain","password":"lncn.org
-    6a"}
-  - {"type":"ssr","name":"TG@hkaa0🇷🇺8","server":"46.29.160.240","port":21156,"protocol":"origin","cipher":"dummy","obfs":"plain","password":"lncn.org
-    u7"}
-  - {"type":"ssr","name":"TG@hkaa0🇷🇺9","server":"46.29.167.21","port":21156,"protocol":"origin","cipher":"dummy","obfs":"plain","password":"lncn.org
-    9b"}
-  - {"type":"ssr","name":"TG@hkaa0🇳🇱10","server":"213.183.59.211","port":9059,"protocol":"origin","cipher":"aes-256-cfb","obfs":"plain","password":"9XwYyZsK8SNzQDtY"}
-  - {"type":"ssr","name":"TG@hkaa0🇳🇱11","server":"213.183.59.211","port":9026,"protocol":"origin","cipher":"aes-256-cfb","obfs":"plain","password":"QWDDvVE9npNurQfA"}
-  - {"type":"ssr","name":"TG@hkaa0🇳🇱12","server":"213.183.59.211","port":9008,"protocol":"origin","cipher":"aes-256-cfb","obfs":"plain","password":"y9VURyNzJWNRYEGQ"}
-  - {"type":"ssr","name":"TG@hkaa0🇳🇱13","server":"213.183.59.211","port":9050,"protocol":"origin","cipher":"aes-256-cfb","obfs":"plain","password":"FG5ddLsMPbV5CutE"}
-  - {"type":"ssr","name":"TG@hkaa0🇳🇱14","server":"213.183.59.211","port":9030,"protocol":"origin","cipher":"aes-256-cfb","obfs":"plain","password":"GeregetR8cvQHzYr"}
-  - {"type":"ssr","name":"TG@hkaa0🇳🇱15","server":"213.183.59.211","port":9032,"protocol":"origin","cipher":"aes-256-cfb","obfs":"plain","password":"UWZQeLRWnkqgkseq"}
-  - {"type":"ssr","name":"TG@hkaa0🇳🇱16","server":"213.183.59.211","port":9014,"protocol":"origin","cipher":"aes-256-cfb","obfs":"plain","password":"KnJGad3FqTvjqbaX"}
-  - {"type":"ssr","name":"TG@hkaa0🇳🇱17","server":"213.183.59.211","port":9006,"protocol":"origin","cipher":"aes-256-cfb","obfs":"plain","password":"FAdUvMJUq5vDgKEq"}
-  - {"type":"ssr","name":"TG@hkaa0🇳🇱18","server":"213.183.59.211","port":9079,"protocol":"origin","cipher":"aes-256-cfb","obfs":"plain","password":"TPqX8edgbAURcAMb"}
-  - {"type":"ssr","name":"TG@hkaa0🇸🇬19","server":"sg-am21.eqsunshine.com","port":8080,"protocol":"origin","cipher":"aes-256-cfb","obfs":"tls1.2_ticket_auth","password":"jUQAcjhEG"}
-  - {"type":"ssr","name":"TG@hkaa0🇺🇸20","server":"us-am32-5.eqnode.net","port":8081,"protocol":"origin","cipher":"aes-256-cfb","obfs":"tls1.2_ticket_auth","password":"YFVrXZgRo"}
-  - {"type":"ssr","name":"TG@hkaa0🇹🇼21","server":"node-adsl-lv1.rdns.link","port":51655,"protocol":"auth_aes128_md5","cipher":"aes-256-cfb","obfs":"tls1.2_ticket_auth","password":"adsl.cloud","obfs-param":"TTJVMVkyRTROQzV6YjJaMGQyRnlaUzFrYjNkdWJHOWhaQzV0YVdOeWIzTnZablF1WTI5dA==","protocol-param":"84:BQFPTy"}
-  - {"type":"ssr","name":"TG@hkaa0🇨🇳22","server":"14.29.124.168","port":24001,"protocol":"origin","cipher":"aes-128-cfb","obfs":"plain","password":"QazEdcTgb159@$*"}
+  - {"type":"ssr","name":"TG@hkaa0🇹🇼5","server":"a.uk.hideu.tw","port":10629,"protocol":"auth_chain_a","cipher":"dummy","obfs":"plain","password":".hideu0430.","protocol-param":"258433:lUoukm"}
+  - {"type":"ssr","name":"TG@hkaa0🇹🇼6","server":"a.de.hideu.tw","port":10629,"protocol":"auth_chain_a","cipher":"dummy","obfs":"plain","password":".hideu0430.","protocol-param":"258433:lUoukm"}
+  - {"type":"ssr","name":"TG@hkaa0🇹🇼7","server":"a.th.hideu.tw","port":10629,"protocol":"auth_chain_a","cipher":"dummy","obfs":"plain","password":".hideu0430.","protocol-param":"258433:lUoukm"}
+  - {"type":"ssr","name":"TG@hkaa0🇹🇼8","server":"a.il.hideu.tw","port":10629,"protocol":"auth_chain_a","cipher":"dummy","obfs":"plain","password":".hideu0430.","protocol-param":"258433:lUoukm"}
+  - {"type":"ssr","name":"TG@hkaa0🇹🇼9","server":"a.br.hideu.tw","port":10629,"protocol":"auth_chain_a","cipher":"dummy","obfs":"plain","password":".hideu0430.","protocol-param":"258433:lUoukm"}
+  - {"type":"ssr","name":"TG@hkaa0🇹🇼10","server":"a.kr.hideu.tw","port":10629,"protocol":"auth_chain_a","cipher":"dummy","obfs":"plain","password":".hideu0430.","protocol-param":"258433:lUoukm"}
+  - {"type":"ssr","name":"TG@hkaa0🇹🇼11","server":"a.tw.hideu.tw","port":10629,"protocol":"auth_chain_a","cipher":"dummy","obfs":"plain","password":".hideu0430.","protocol-param":"258433:lUoukm"}
+  - {"type":"ssr","name":"TG@hkaa0🇭🇰12","server":"a.hk.hideu.tw","port":10629,"protocol":"auth_chain_a","cipher":"dummy","obfs":"plain","password":".hideu0430.","protocol-param":"258433:lUoukm"}
+  - {"type":"ssr","name":"TG@hkaa0🇯🇵13","server":"b.jp.hideu.tw","port":10629,"protocol":"auth_chain_a","cipher":"dummy","obfs":"plain","password":".hideu0430.","protocol-param":"258433:lUoukm"}
+  - {"type":"ssr","name":"TG@hkaa0🇹🇼14","server":"a.rus.hideu.tw","port":10629,"protocol":"auth_chain_a","cipher":"dummy","obfs":"plain","password":".hideu0430.","protocol-param":"258433:lUoukm"}
 proxy-groups:
   - name: 🚀 节点选择
     type: select
@@ -47,24 +36,16 @@ proxy-groups:
       - TG@hkaa0🇳🇱2
       - TG@hkaa0🇳🇱3
       - TG@hkaa0🇳🇱4
-      - TG@hkaa0🇳🇱5
-      - TG@hkaa0🇳🇱6
-      - TG@hkaa0🇷🇺7
-      - TG@hkaa0🇷🇺8
-      - TG@hkaa0🇷🇺9
-      - TG@hkaa0🇳🇱10
-      - TG@hkaa0🇳🇱11
-      - TG@hkaa0🇳🇱12
-      - TG@hkaa0🇳🇱13
-      - TG@hkaa0🇳🇱14
-      - TG@hkaa0🇳🇱15
-      - TG@hkaa0🇳🇱16
-      - TG@hkaa0🇳🇱17
-      - TG@hkaa0🇳🇱18
-      - TG@hkaa0🇸🇬19
-      - TG@hkaa0🇺🇸20
-      - TG@hkaa0🇹🇼21
-      - TG@hkaa0🇨🇳22
+      - TG@hkaa0🇹🇼5
+      - TG@hkaa0🇹🇼6
+      - TG@hkaa0🇹🇼7
+      - TG@hkaa0🇹🇼8
+      - TG@hkaa0🇹🇼9
+      - TG@hkaa0🇹🇼10
+      - TG@hkaa0🇹🇼11
+      - TG@hkaa0🇭🇰12
+      - TG@hkaa0🇯🇵13
+      - TG@hkaa0🇹🇼14
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
@@ -75,24 +56,16 @@ proxy-groups:
       - TG@hkaa0🇳🇱2
       - TG@hkaa0🇳🇱3
       - TG@hkaa0🇳🇱4
-      - TG@hkaa0🇳🇱5
-      - TG@hkaa0🇳🇱6
-      - TG@hkaa0🇷🇺7
-      - TG@hkaa0🇷🇺8
-      - TG@hkaa0🇷🇺9
-      - TG@hkaa0🇳🇱10
-      - TG@hkaa0🇳🇱11
-      - TG@hkaa0🇳🇱12
-      - TG@hkaa0🇳🇱13
-      - TG@hkaa0🇳🇱14
-      - TG@hkaa0🇳🇱15
-      - TG@hkaa0🇳🇱16
-      - TG@hkaa0🇳🇱17
-      - TG@hkaa0🇳🇱18
-      - TG@hkaa0🇸🇬19
-      - TG@hkaa0🇺🇸20
-      - TG@hkaa0🇹🇼21
-      - TG@hkaa0🇨🇳22
+      - TG@hkaa0🇹🇼5
+      - TG@hkaa0🇹🇼6
+      - TG@hkaa0🇹🇼7
+      - TG@hkaa0🇹🇼8
+      - TG@hkaa0🇹🇼9
+      - TG@hkaa0🇹🇼10
+      - TG@hkaa0🇹🇼11
+      - TG@hkaa0🇭🇰12
+      - TG@hkaa0🇯🇵13
+      - TG@hkaa0🇹🇼14
   - name: 🌍 国外媒体
     type: select
     proxies:
@@ -103,24 +76,16 @@ proxy-groups:
       - TG@hkaa0🇳🇱2
       - TG@hkaa0🇳🇱3
       - TG@hkaa0🇳🇱4
-      - TG@hkaa0🇳🇱5
-      - TG@hkaa0🇳🇱6
-      - TG@hkaa0🇷🇺7
-      - TG@hkaa0🇷🇺8
-      - TG@hkaa0🇷🇺9
-      - TG@hkaa0🇳🇱10
-      - TG@hkaa0🇳🇱11
-      - TG@hkaa0🇳🇱12
-      - TG@hkaa0🇳🇱13
-      - TG@hkaa0🇳🇱14
-      - TG@hkaa0🇳🇱15
-      - TG@hkaa0🇳🇱16
-      - TG@hkaa0🇳🇱17
-      - TG@hkaa0🇳🇱18
-      - TG@hkaa0🇸🇬19
-      - TG@hkaa0🇺🇸20
-      - TG@hkaa0🇹🇼21
-      - TG@hkaa0🇨🇳22
+      - TG@hkaa0🇹🇼5
+      - TG@hkaa0🇹🇼6
+      - TG@hkaa0🇹🇼7
+      - TG@hkaa0🇹🇼8
+      - TG@hkaa0🇹🇼9
+      - TG@hkaa0🇹🇼10
+      - TG@hkaa0🇹🇼11
+      - TG@hkaa0🇭🇰12
+      - TG@hkaa0🇯🇵13
+      - TG@hkaa0🇹🇼14
   - name: 📲 电报信息
     type: select
     proxies:
@@ -130,24 +95,16 @@ proxy-groups:
       - TG@hkaa0🇳🇱2
       - TG@hkaa0🇳🇱3
       - TG@hkaa0🇳🇱4
-      - TG@hkaa0🇳🇱5
-      - TG@hkaa0🇳🇱6
-      - TG@hkaa0🇷🇺7
-      - TG@hkaa0🇷🇺8
-      - TG@hkaa0🇷🇺9
-      - TG@hkaa0🇳🇱10
-      - TG@hkaa0🇳🇱11
-      - TG@hkaa0🇳🇱12
-      - TG@hkaa0🇳🇱13
-      - TG@hkaa0🇳🇱14
-      - TG@hkaa0🇳🇱15
-      - TG@hkaa0🇳🇱16
-      - TG@hkaa0🇳🇱17
-      - TG@hkaa0🇳🇱18
-      - TG@hkaa0🇸🇬19
-      - TG@hkaa0🇺🇸20
-      - TG@hkaa0🇹🇼21
-      - TG@hkaa0🇨🇳22
+      - TG@hkaa0🇹🇼5
+      - TG@hkaa0🇹🇼6
+      - TG@hkaa0🇹🇼7
+      - TG@hkaa0🇹🇼8
+      - TG@hkaa0🇹🇼9
+      - TG@hkaa0🇹🇼10
+      - TG@hkaa0🇹🇼11
+      - TG@hkaa0🇭🇰12
+      - TG@hkaa0🇯🇵13
+      - TG@hkaa0🇹🇼14
   - name: Ⓜ️ 微软服务
     type: select
     proxies:
@@ -157,24 +114,16 @@ proxy-groups:
       - TG@hkaa0🇳🇱2
       - TG@hkaa0🇳🇱3
       - TG@hkaa0🇳🇱4
-      - TG@hkaa0🇳🇱5
-      - TG@hkaa0🇳🇱6
-      - TG@hkaa0🇷🇺7
-      - TG@hkaa0🇷🇺8
-      - TG@hkaa0🇷🇺9
-      - TG@hkaa0🇳🇱10
-      - TG@hkaa0🇳🇱11
-      - TG@hkaa0🇳🇱12
-      - TG@hkaa0🇳🇱13
-      - TG@hkaa0🇳🇱14
-      - TG@hkaa0🇳🇱15
-      - TG@hkaa0🇳🇱16
-      - TG@hkaa0🇳🇱17
-      - TG@hkaa0🇳🇱18
-      - TG@hkaa0🇸🇬19
-      - TG@hkaa0🇺🇸20
-      - TG@hkaa0🇹🇼21
-      - TG@hkaa0🇨🇳22
+      - TG@hkaa0🇹🇼5
+      - TG@hkaa0🇹🇼6
+      - TG@hkaa0🇹🇼7
+      - TG@hkaa0🇹🇼8
+      - TG@hkaa0🇹🇼9
+      - TG@hkaa0🇹🇼10
+      - TG@hkaa0🇹🇼11
+      - TG@hkaa0🇭🇰12
+      - TG@hkaa0🇯🇵13
+      - TG@hkaa0🇹🇼14
   - name: 🍎 苹果服务
     type: select
     proxies:
@@ -184,24 +133,16 @@ proxy-groups:
       - TG@hkaa0🇳🇱2
       - TG@hkaa0🇳🇱3
       - TG@hkaa0🇳🇱4
-      - TG@hkaa0🇳🇱5
-      - TG@hkaa0🇳🇱6
-      - TG@hkaa0🇷🇺7
-      - TG@hkaa0🇷🇺8
-      - TG@hkaa0🇷🇺9
-      - TG@hkaa0🇳🇱10
-      - TG@hkaa0🇳🇱11
-      - TG@hkaa0🇳🇱12
-      - TG@hkaa0🇳🇱13
-      - TG@hkaa0🇳🇱14
-      - TG@hkaa0🇳🇱15
-      - TG@hkaa0🇳🇱16
-      - TG@hkaa0🇳🇱17
-      - TG@hkaa0🇳🇱18
-      - TG@hkaa0🇸🇬19
-      - TG@hkaa0🇺🇸20
-      - TG@hkaa0🇹🇼21
-      - TG@hkaa0🇨🇳22
+      - TG@hkaa0🇹🇼5
+      - TG@hkaa0🇹🇼6
+      - TG@hkaa0🇹🇼7
+      - TG@hkaa0🇹🇼8
+      - TG@hkaa0🇹🇼9
+      - TG@hkaa0🇹🇼10
+      - TG@hkaa0🇹🇼11
+      - TG@hkaa0🇭🇰12
+      - TG@hkaa0🇯🇵13
+      - TG@hkaa0🇹🇼14
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -228,24 +169,16 @@ proxy-groups:
       - TG@hkaa0🇳🇱2
       - TG@hkaa0🇳🇱3
       - TG@hkaa0🇳🇱4
-      - TG@hkaa0🇳🇱5
-      - TG@hkaa0🇳🇱6
-      - TG@hkaa0🇷🇺7
-      - TG@hkaa0🇷🇺8
-      - TG@hkaa0🇷🇺9
-      - TG@hkaa0🇳🇱10
-      - TG@hkaa0🇳🇱11
-      - TG@hkaa0🇳🇱12
-      - TG@hkaa0🇳🇱13
-      - TG@hkaa0🇳🇱14
-      - TG@hkaa0🇳🇱15
-      - TG@hkaa0🇳🇱16
-      - TG@hkaa0🇳🇱17
-      - TG@hkaa0🇳🇱18
-      - TG@hkaa0🇸🇬19
-      - TG@hkaa0🇺🇸20
-      - TG@hkaa0🇹🇼21
-      - TG@hkaa0🇨🇳22
+      - TG@hkaa0🇹🇼5
+      - TG@hkaa0🇹🇼6
+      - TG@hkaa0🇹🇼7
+      - TG@hkaa0🇹🇼8
+      - TG@hkaa0🇹🇼9
+      - TG@hkaa0🇹🇼10
+      - TG@hkaa0🇹🇼11
+      - TG@hkaa0🇭🇰12
+      - TG@hkaa0🇯🇵13
+      - TG@hkaa0🇹🇼14
 rules:
   - DOMAIN-SUFFIX,acl4.ssr,🎯 全球直连
   - DOMAIN-SUFFIX,ip6-localhost,🎯 全球直连
