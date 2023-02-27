@@ -1,9 +1,10 @@
 #
 #-------------------------------------------------------------#
-#  创建者：TG频道:@hkaa0
-#  创建时间：2022-09-06 
-#  模版：ACL4SSR
-#  节点数量：4
+#  创建者：     五叶节点分享
+#           https://t.me/hkaa0
+#  创建时间：2023-02-27 
+#  模版：ACL4SSR_Online
+#  节点数量：11
 #-------------------------------------------------------------#
 #
 mixed-port: 7890
@@ -11,68 +12,144 @@ allow-lan: true
 mode: Rule
 log-level: info
 external-controller: 0.0.0.0:9090
+dns:
+  enabled: true
+  nameserver:
+    - 119.29.29.29
+    - 223.5.5.5
+  fallback:
+    - 8.8.8.8
+    - 8.8.4.4
+    - tls://1.0.0.1:853
+    - tls://dns.google:853
 proxies:
-  - {"type":"ssr","name":"TG@hkaa0🇨🇳1","server":"cmjm.julvab.com","port":20598,"protocol":"auth_aes128_sha1","cipher":"chacha20-ietf","obfs":"http_simple","password":"download.microso","obfs-param":"TjJOa09Ea3hNRFl6T0M1a2IzZHViRzloWkM1dGFXTnliM052Wm5RdVkyOXQ=","protocol-param":"10638:CznkVG"}
-  - {"type":"ssr","name":"TG@hkaa0🇨🇳2","server":"ifarocunicom.jjrlrn.com","port":20017,"protocol":"auth_aes128_sha1","cipher":"chacha20-ietf","obfs":"http_simple","password":"download.microso","obfs-param":"TjJOa09Ea3hNRFl6T0M1a2IzZHViRzloWkM1dGFXTnliM052Wm5RdVkyOXQ=","protocol-param":"10638:CznkVG"}
-  - {"type":"ssr","name":"TG@hkaa0🇨🇳3","server":"cmjm.julvab.com","port":20118,"protocol":"auth_aes128_sha1","cipher":"chacha20-ietf","obfs":"http_simple","password":"download.microso","obfs-param":"TjJOa09Ea3hNRFl6T0M1a2IzZHViRzloWkM1dGFXTnliM052Wm5RdVkyOXQ=","protocol-param":"10638:CznkVG"}
-  - {"type":"ssr","name":"TG@hkaa0🇺🇸4","server":"us-am32-5.eqnode.net","port":8081,"protocol":"origin","cipher":"aes-256-cfb","obfs":"tls1.2_ticket_auth","password":"YFVrXZgRo"}
+  - {"type":"ssr","name":"TG@hkaa0|中国_1","server":"14.29.124.168","port":24005,"protocol":"origin","cipher":"aes-128-cfb","obfs":"plain","password":"QazEdcTgb159@$*"}
+  - {"type":"ssr","name":"TG@hkaa0|澳大利亚","server":"z0113.security-cloudfront-cdn.com","port":42833,"protocol":"origin","cipher":"aes-256-cfb","obfs":"http_simple","password":"YpX2opBbrfqJzzMs"}
+  - {"type":"ssr","name":"TG@hkaa0|加拿大_1","server":"z0115.security-cloudfront-cdn.com","port":42833,"protocol":"origin","cipher":"aes-256-cfb","obfs":"http_simple","password":"YpX2opBbrfqJzzMs"}
+  - {"type":"ssr","name":"TG@hkaa0|爱尔兰_1","server":"z0116.security-cloudfront-cdn.com","port":42833,"protocol":"origin","cipher":"aes-256-cfb","obfs":"http_simple","password":"YpX2opBbrfqJzzMs","obfs-param":"www.microsoft.com#User-Agent:Mozilla/5.0(iPhone;CPUiPhoneOS11_4_1likeMacOSX)AppleWebKit/602.4.6(KHTML,likeGecko)Version/10.0Mobile/14D27MicroMessenger/6.5.13Accept:/Connection:keep-alive"}
+  - {"type":"ssr","name":"TG@hkaa0|中国_2","server":"z3002.security-cloudfront-cdn.com","port":42833,"protocol":"origin","cipher":"aes-256-cfb","obfs":"http_simple","password":"YpX2opBbrfqJzzMs","obfs-param":"www.microsoft.com#User-Agent:Mozilla/5.0(iPhone;CPUiPhoneOS11_4_1likeMacOSX)AppleWebKit/602.4.6(KHTML,likeGecko)Version/10.0Mobile/14D27MicroMessenger/6.5.13Accept:/Connection:keep-alive"}
+  - {"type":"ssr","name":"TG@hkaa0|德国","server":"z0110.security-cloudfront-cdn.com","port":42833,"protocol":"origin","cipher":"aes-256-cfb","obfs":"http_simple","password":"YpX2opBbrfqJzzMs","obfs-param":"====","protocol-param":"===="}
+  - {"type":"ssr","name":"TG@hkaa0|中国_3","server":"z0001.security-cloudfront-cdn.com","port":42833,"protocol":"origin","cipher":"aes-256-cfb","obfs":"http_simple","password":"YpX2opBbrfqJzzMs","obfs-param":"www.microsoft.com#User-Agent:Mozilla/5.0(iPhone;CPUiPhoneOS11_4_1likeMacOSX)AppleWebKit/602.4.6(KHTML,likeGecko)Version/10.0Mobile/14D27MicroMessenger/6.5.13Accept:/Connection:keep-alive"}
+  - {"type":"ssr","name":"TG@hkaa0|印度","server":"z0114.security-cloudfront-cdn.com","port":42833,"protocol":"origin","cipher":"aes-256-cfb","obfs":"http_simple","password":"YpX2opBbrfqJzzMs","obfs-param":"PT09PQ======","protocol-param":"PT09PQ======"}
+  - {"type":"ssr","name":"TG@hkaa0|加拿大_2","server":"z0115.security-cloudfront-cdn.com","port":42833,"protocol":"origin","cipher":"aes-256-cfb","obfs":"http_simple","password":"YpX2opBbrfqJzzMs","obfs-param":"===%%�","protocol-param":"===%%�"}
+  - {"type":"ssr","name":"TG@hkaa0|中国_4","server":"14.29.124.168","port":24005,"protocol":"origin","cipher":"aes-128-cfb","obfs":"plain","password":"QazEdcTgb159@$*"}
+  - {"type":"ssr","name":"TG@hkaa0|爱尔兰_2","server":"z0116.security-cloudfront-cdn.com","port":42833,"protocol":"origin","cipher":"aes-256-cfb","obfs":"http_simple","password":"YpX2opBbrfqJzzMs","obfs-param":"www.microsoft.com#User-Agent:Mozilla/5.0(iPhone;CPUiPhoneOS11_4_1likeMacOSX)AppleWebKit/602.4.6(KHTML,likeGecko)Version/10.0Mobile/14D27MicroMessenger/6.5.13Accept:/Connection:keep-alive"}
 proxy-groups:
   - name: 🚀 节点选择
     type: select
     proxies:
       - ♻️ 自动选择
       - DIRECT
-      - TG@hkaa0🇨🇳1
-      - TG@hkaa0🇨🇳2
-      - TG@hkaa0🇨🇳3
-      - TG@hkaa0🇺🇸4
+      - TG@hkaa0|中国_1
+      - TG@hkaa0|澳大利亚
+      - TG@hkaa0|加拿大_1
+      - TG@hkaa0|爱尔兰_1
+      - TG@hkaa0|中国_2
+      - TG@hkaa0|德国
+      - TG@hkaa0|中国_3
+      - TG@hkaa0|印度
+      - TG@hkaa0|加拿大_2
+      - TG@hkaa0|中国_4
+      - TG@hkaa0|爱尔兰_2
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     tolerance: 50
     proxies:
-      - TG@hkaa0🇨🇳1
-      - TG@hkaa0🇨🇳2
-      - TG@hkaa0🇨🇳3
-      - TG@hkaa0🇺🇸4
+      - TG@hkaa0|中国_1
+      - TG@hkaa0|澳大利亚
+      - TG@hkaa0|加拿大_1
+      - TG@hkaa0|爱尔兰_1
+      - TG@hkaa0|中国_2
+      - TG@hkaa0|德国
+      - TG@hkaa0|中国_3
+      - TG@hkaa0|印度
+      - TG@hkaa0|加拿大_2
+      - TG@hkaa0|中国_4
+      - TG@hkaa0|爱尔兰_2
   - name: 🌍 国外媒体
     type: select
     proxies:
       - 🚀 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - TG@hkaa0🇨🇳1
-      - TG@hkaa0🇨🇳2
-      - TG@hkaa0🇨🇳3
-      - TG@hkaa0🇺🇸4
+      - TG@hkaa0|中国_1
+      - TG@hkaa0|澳大利亚
+      - TG@hkaa0|加拿大_1
+      - TG@hkaa0|爱尔兰_1
+      - TG@hkaa0|中国_2
+      - TG@hkaa0|德国
+      - TG@hkaa0|中国_3
+      - TG@hkaa0|印度
+      - TG@hkaa0|加拿大_2
+      - TG@hkaa0|中国_4
+      - TG@hkaa0|爱尔兰_2
   - name: 📲 电报信息
     type: select
     proxies:
       - 🚀 节点选择
       - 🎯 全球直连
-      - TG@hkaa0🇨🇳1
-      - TG@hkaa0🇨🇳2
-      - TG@hkaa0🇨🇳3
-      - TG@hkaa0🇺🇸4
+      - TG@hkaa0|中国_1
+      - TG@hkaa0|澳大利亚
+      - TG@hkaa0|加拿大_1
+      - TG@hkaa0|爱尔兰_1
+      - TG@hkaa0|中国_2
+      - TG@hkaa0|德国
+      - TG@hkaa0|中国_3
+      - TG@hkaa0|印度
+      - TG@hkaa0|加拿大_2
+      - TG@hkaa0|中国_4
+      - TG@hkaa0|爱尔兰_2
   - name: Ⓜ️ 微软服务
     type: select
     proxies:
       - 🎯 全球直连
       - 🚀 节点选择
-      - TG@hkaa0🇨🇳1
-      - TG@hkaa0🇨🇳2
-      - TG@hkaa0🇨🇳3
-      - TG@hkaa0🇺🇸4
+      - TG@hkaa0|中国_1
+      - TG@hkaa0|澳大利亚
+      - TG@hkaa0|加拿大_1
+      - TG@hkaa0|爱尔兰_1
+      - TG@hkaa0|中国_2
+      - TG@hkaa0|德国
+      - TG@hkaa0|中国_3
+      - TG@hkaa0|印度
+      - TG@hkaa0|加拿大_2
+      - TG@hkaa0|中国_4
+      - TG@hkaa0|爱尔兰_2
   - name: 🍎 苹果服务
     type: select
     proxies:
       - 🚀 节点选择
       - 🎯 全球直连
-      - TG@hkaa0🇨🇳1
-      - TG@hkaa0🇨🇳2
-      - TG@hkaa0🇨🇳3
-      - TG@hkaa0🇺🇸4
+      - TG@hkaa0|中国_1
+      - TG@hkaa0|澳大利亚
+      - TG@hkaa0|加拿大_1
+      - TG@hkaa0|爱尔兰_1
+      - TG@hkaa0|中国_2
+      - TG@hkaa0|德国
+      - TG@hkaa0|中国_3
+      - TG@hkaa0|印度
+      - TG@hkaa0|加拿大_2
+      - TG@hkaa0|中国_4
+      - TG@hkaa0|爱尔兰_2
+  - name: 📢 谷歌FCM
+    type: select
+    proxies:
+      - 🚀 节点选择
+      - 🎯 全球直连
+      - ♻️ 自动选择
+      - TG@hkaa0|中国_1
+      - TG@hkaa0|澳大利亚
+      - TG@hkaa0|加拿大_1
+      - TG@hkaa0|爱尔兰_1
+      - TG@hkaa0|中国_2
+      - TG@hkaa0|德国
+      - TG@hkaa0|中国_3
+      - TG@hkaa0|印度
+      - TG@hkaa0|加拿大_2
+      - TG@hkaa0|中国_4
+      - TG@hkaa0|爱尔兰_2
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -95,10 +172,17 @@ proxy-groups:
       - 🚀 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - TG@hkaa0🇨🇳1
-      - TG@hkaa0🇨🇳2
-      - TG@hkaa0🇨🇳3
-      - TG@hkaa0🇺🇸4
+      - TG@hkaa0|中国_1
+      - TG@hkaa0|澳大利亚
+      - TG@hkaa0|加拿大_1
+      - TG@hkaa0|爱尔兰_1
+      - TG@hkaa0|中国_2
+      - TG@hkaa0|德国
+      - TG@hkaa0|中国_3
+      - TG@hkaa0|印度
+      - TG@hkaa0|加拿大_2
+      - TG@hkaa0|中国_4
+      - TG@hkaa0|爱尔兰_2
 rules:
   - DOMAIN-SUFFIX,acl4.ssr,🎯 全球直连
   - DOMAIN-SUFFIX,ip6-localhost,🎯 全球直连
@@ -131,6 +215,27 @@ rules:
   - DOMAIN-SUFFIX,routerlogin.com,🎯 全球直连
   - DOMAIN-SUFFIX,tendawifi.com,🎯 全球直连
   - DOMAIN-SUFFIX,zte.home,🎯 全球直连
+  - DOMAIN-SUFFIX,tplogin.cn,🎯 全球直连
+  - DOMAIN-SUFFIX,ol.epicgames.com,🎯 全球直连
+  - DOMAIN-SUFFIX,dizhensubao.getui.com,🎯 全球直连
+  - DOMAIN,dl.google.com,🎯 全球直连
+  - DOMAIN-SUFFIX,googletraveladservices.com,🎯 全球直连
+  - DOMAIN-SUFFIX,tracking-protection.cdn.mozilla.net,🎯 全球直连
+  - DOMAIN,origin-a.akamaihd.net,🎯 全球直连
+  - DOMAIN,xivanalysis.com,🎯 全球直连
+  - DOMAIN,picanalysis.vivo.com.cn,🎯 全球直连
+  - DOMAIN,picanalysis-auth.vivo.com.cn,🎯 全球直连
+  - DOMAIN,fairplay.l.qq.com,🎯 全球直连
+  - DOMAIN,livew.l.qq.com,🎯 全球直连
+  - DOMAIN,vd.l.qq.com,🎯 全球直连
+  - DOMAIN,analytics.strava.com,🎯 全球直连
+  - DOMAIN,errlog.umeng.com,🎯 全球直连
+  - DOMAIN,msg.umeng.com,🎯 全球直连
+  - DOMAIN,msg.umengcloud.com,🎯 全球直连
+  - DOMAIN,tracking.miui.com,🎯 全球直连
+  - DOMAIN,app.adjust.com,🎯 全球直连
+  - DOMAIN,bdtj.tagtic.cn,🎯 全球直连
+  - DOMAIN,rewards.hypixel.net,🎯 全球直连
   - DOMAIN-KEYWORD,admarvel,🛑 全球拦截
   - DOMAIN-KEYWORD,admaster,🛑 全球拦截
   - DOMAIN-KEYWORD,adsage,🛑 全球拦截
@@ -1751,6 +1856,41 @@ rules:
   - DOMAIN-SUFFIX,tralog.ganji.com,🍃 应用净化
   - DOMAIN-SUFFIX,up.qingdaonews.com,🍃 应用净化
   - DOMAIN-SUFFIX,vaserviece.10jqka.com.cn,🍃 应用净化
+  - DOMAIN,alt1-mtalk.google.com,📢 谷歌FCM
+  - DOMAIN,alt2-mtalk.google.com,📢 谷歌FCM
+  - DOMAIN,alt3-mtalk.google.com,📢 谷歌FCM
+  - DOMAIN,alt4-mtalk.google.com,📢 谷歌FCM
+  - DOMAIN,alt5-mtalk.google.com,📢 谷歌FCM
+  - DOMAIN,alt6-mtalk.google.com,📢 谷歌FCM
+  - DOMAIN,alt7-mtalk.google.com,📢 谷歌FCM
+  - DOMAIN,alt8-mtalk.google.com,📢 谷歌FCM
+  - DOMAIN,mtalk.google.com,📢 谷歌FCM
+  - IP-CIDR,64.233.177.188/32,📢 谷歌FCM,no-resolve
+  - IP-CIDR,64.233.186.188/32,📢 谷歌FCM,no-resolve
+  - IP-CIDR,64.233.187.188/32,📢 谷歌FCM,no-resolve
+  - IP-CIDR,64.233.188.188/32,📢 谷歌FCM,no-resolve
+  - IP-CIDR,64.233.189.188/32,📢 谷歌FCM,no-resolve
+  - IP-CIDR,74.125.23.188/32,📢 谷歌FCM,no-resolve
+  - IP-CIDR,74.125.24.188/32,📢 谷歌FCM,no-resolve
+  - IP-CIDR,74.125.28.188/32,📢 谷歌FCM,no-resolve
+  - IP-CIDR,74.125.127.188/32,📢 谷歌FCM,no-resolve
+  - IP-CIDR,74.125.137.188/32,📢 谷歌FCM,no-resolve
+  - IP-CIDR,74.125.203.188/32,📢 谷歌FCM,no-resolve
+  - IP-CIDR,74.125.204.188/32,📢 谷歌FCM,no-resolve
+  - IP-CIDR,74.125.206.188/32,📢 谷歌FCM,no-resolve
+  - IP-CIDR,108.177.125.188/32,📢 谷歌FCM,no-resolve
+  - IP-CIDR,142.250.4.188/32,📢 谷歌FCM,no-resolve
+  - IP-CIDR,142.250.10.188/32,📢 谷歌FCM,no-resolve
+  - IP-CIDR,142.250.31.188/32,📢 谷歌FCM,no-resolve
+  - IP-CIDR,142.250.96.188/32,📢 谷歌FCM,no-resolve
+  - IP-CIDR,172.217.194.188/32,📢 谷歌FCM,no-resolve
+  - IP-CIDR,172.217.218.188/32,📢 谷歌FCM,no-resolve
+  - IP-CIDR,172.217.219.188/32,📢 谷歌FCM,no-resolve
+  - IP-CIDR,172.253.63.188/32,📢 谷歌FCM,no-resolve
+  - IP-CIDR,172.253.122.188/32,📢 谷歌FCM,no-resolve
+  - IP-CIDR,173.194.175.188/32,📢 谷歌FCM,no-resolve
+  - IP-CIDR,173.194.218.188/32,📢 谷歌FCM,no-resolve
+  - IP-CIDR,209.85.233.188/32,📢 谷歌FCM,no-resolve
   - DOMAIN-SUFFIX,265.com,🎯 全球直连
   - DOMAIN-SUFFIX,2mdn.net,🎯 全球直连
   - DOMAIN-SUFFIX,alt1-mtalk.google.com,🎯 全球直连
@@ -1782,7 +1922,6 @@ rules:
   - DOMAIN-SUFFIX,safebrowsing.googleapis.com,🎯 全球直连
   - DOMAIN-SUFFIX,settings.crashlytics.com,🎯 全球直连
   - DOMAIN-SUFFIX,ssl-google-analytics.l.google.com,🎯 全球直连
-  - DOMAIN-SUFFIX,ssl.gstatic.com,🎯 全球直连
   - DOMAIN-SUFFIX,toolbarqueries.google.com,🎯 全球直连
   - DOMAIN-SUFFIX,tools.google.com,🎯 全球直连
   - DOMAIN-SUFFIX,tools.l.google.com,🎯 全球直连
@@ -1908,13 +2047,28 @@ rules:
   - IP-CIDR,192.35.50.0/24,🍎 苹果服务,no-resolve
   - IP-CIDR,198.183.17.0/24,🍎 苹果服务,no-resolve
   - IP-CIDR,205.180.175.0/24,🍎 苹果服务,no-resolve
+  - DOMAIN-SUFFIX,t.me,📲 电报信息
+  - DOMAIN-SUFFIX,tdesktop.com,📲 电报信息
+  - DOMAIN-SUFFIX,telegra.ph,📲 电报信息
+  - DOMAIN-SUFFIX,telegram.me,📲 电报信息
+  - DOMAIN-SUFFIX,telegram.org,📲 电报信息
+  - DOMAIN-SUFFIX,telesco.pe,📲 电报信息
+  - IP-CIDR,91.108.0.0/16,📲 电报信息,no-resolve
+  - IP-CIDR,109.239.140.0/24,📲 电报信息,no-resolve
+  - IP-CIDR,149.154.160.0/20,📲 电报信息,no-resolve
+  - IP-CIDR6,2001:67c:4e8::/48,📲 电报信息,no-resolve
+  - IP-CIDR6,2001:b28:f23d::/48,📲 电报信息,no-resolve
+  - IP-CIDR6,2001:b28:f23f::/48,📲 电报信息,no-resolve
   - DOMAIN-SUFFIX,edgedatg.com,🌍 国外媒体
   - DOMAIN-SUFFIX,go.com,🌍 国外媒体
   - DOMAIN-KEYWORD,abematv.akamaized.net,🌍 国外媒体
+  - DOMAIN,api-abematv.bucketeer.jp,🌍 国外媒体
+  - DOMAIN-SUFFIX,abema-tv.com,🌍 国外媒体
   - DOMAIN-SUFFIX,abema.io,🌍 国外媒体
   - DOMAIN-SUFFIX,abema.tv,🌍 国外媒体
   - DOMAIN-SUFFIX,ameba.jp,🌍 国外媒体
   - DOMAIN-SUFFIX,hayabusa.io,🌍 国外媒体
+  - DOMAIN-SUFFIX,hayabusa.media,🌍 国外媒体
   - DOMAIN-SUFFIX,c4assets.com,🌍 国外媒体
   - DOMAIN-SUFFIX,channel4.com,🌍 国外媒体
   - DOMAIN-KEYWORD,avoddashs,🌍 国外媒体
@@ -1932,6 +2086,7 @@ rules:
   - DOMAIN-SUFFIX,aiv-cdn.net,🌍 国外媒体
   - DOMAIN-SUFFIX,aiv-delivery.net,🌍 国外媒体
   - DOMAIN-SUFFIX,amazon.jobs,🌍 国外媒体
+  - DOMAIN-SUFFIX,amazonuniversity.jobs,🌍 国外媒体
   - DOMAIN-SUFFIX,amazonvideo.com,🌍 国外媒体
   - DOMAIN-SUFFIX,media-amazon.com,🌍 国外媒体
   - DOMAIN-SUFFIX,pv-cdn.net,🌍 国外媒体
@@ -2161,18 +2316,18 @@ rules:
   - DOMAIN-SUFFIX,twitch-ext.rootonline.de,🌍 国外媒体
   - DOMAIN-SUFFIX,twitch.tv,🌍 国外媒体
   - DOMAIN-SUFFIX,twitchcdn.net,🌍 国外媒体
+  - PROCESS-NAME,com.viu.pad,🌍 国外媒体
+  - PROCESS-NAME,com.viu.phone,🌍 国外媒体
+  - PROCESS-NAME,com.vuclip.viu,🌍 国外媒体
   - DOMAIN,api.viu.now.com,🌍 国外媒体
   - DOMAIN,d1k2us671qcoau.cloudfront.net,🌍 国外媒体
   - DOMAIN,d2anahhhmp1ffz.cloudfront.net,🌍 国外媒体
   - DOMAIN,dfp6rglgjqszk.cloudfront.net,🌍 国外媒体
-  - DOMAIN-SUFFIX,bootstrapcdn.com,🌍 国外媒体
-  - DOMAIN-SUFFIX,cloudfront.net,🌍 国外媒体
   - DOMAIN-SUFFIX,cognito-identity.us-east-1.amazonaws.com,🌍 国外媒体
-  - DOMAIN-SUFFIX,firebaseio.com,🌍 国外媒体
-  - DOMAIN-SUFFIX,jwpcdn.com,🌍 国外媒体
-  - DOMAIN-SUFFIX,jwplayer.com,🌍 国外媒体
+  - DOMAIN-SUFFIX,d1k2us671qcoau.cloudfront.net,🌍 国外媒体
+  - DOMAIN-SUFFIX,d2anahhhmp1ffz.cloudfront.net,🌍 国外媒体
+  - DOMAIN-SUFFIX,dfp6rglgjqszk.cloudfront.net,🌍 国外媒体
   - DOMAIN-SUFFIX,mobileanalytics.us-east-1.amazonaws.com,🌍 国外媒体
-  - DOMAIN-SUFFIX,nowe.com,🌍 国外媒体
   - DOMAIN-SUFFIX,viu.com,🌍 国外媒体
   - DOMAIN-SUFFIX,viu.now.com,🌍 国外媒体
   - DOMAIN-SUFFIX,viu.tv,🌍 国外媒体
@@ -2191,18 +2346,6 @@ rules:
   - DOMAIN-SUFFIX,yt.be,🌍 国外媒体
   - DOMAIN-SUFFIX,ytimg.com,🌍 国外媒体
   - DOMAIN,music.youtube.com,🌍 国外媒体
-  - DOMAIN-SUFFIX,t.me,📲 电报信息
-  - DOMAIN-SUFFIX,tdesktop.com,📲 电报信息
-  - DOMAIN-SUFFIX,telegra.ph,📲 电报信息
-  - DOMAIN-SUFFIX,telegram.me,📲 电报信息
-  - DOMAIN-SUFFIX,telegram.org,📲 电报信息
-  - DOMAIN-SUFFIX,telesco.pe,📲 电报信息
-  - IP-CIDR,91.108.0.0/16,📲 电报信息,no-resolve
-  - IP-CIDR,109.239.140.0/24,📲 电报信息,no-resolve
-  - IP-CIDR,149.154.160.0/20,📲 电报信息,no-resolve
-  - IP-CIDR6,2001:67c:4e8::/48,📲 电报信息,no-resolve
-  - IP-CIDR6,2001:b28:f23d::/48,📲 电报信息,no-resolve
-  - IP-CIDR6,2001:b28:f23f::/48,📲 电报信息,no-resolve
   - DOMAIN-SUFFIX,v2rayse.com,🚀 节点选择
   - DOMAIN-SUFFIX,vpnse.org,🚀 节点选择
   - DOMAIN-SUFFIX,cff.pw,🚀 节点选择
@@ -2211,7 +2354,7 @@ rules:
   - DOMAIN-SUFFIX,adguard.org,🚀 节点选择
   - DOMAIN-SUFFIX,bit.no.com,🚀 节点选择
   - DOMAIN-SUFFIX,btlibrary.me,🚀 节点选择
-  - DOMAIN-SUFFIX,cccat.io,🚀 节点选择
+  - DOMAIN-SUFFIX,chat.openai.com,🚀 节点选择
   - DOMAIN-SUFFIX,cloudcone.com,🚀 节点选择
   - DOMAIN-SUFFIX,dubox.com,🚀 节点选择
   - DOMAIN-SUFFIX,gameloft.com,🚀 节点选择
@@ -2222,6 +2365,7 @@ rules:
   - DOMAIN-SUFFIX,linkedin.com,🚀 节点选择
   - DOMAIN-SUFFIX,myteamspeak.com,🚀 节点选择
   - DOMAIN-SUFFIX,notion.so,🚀 节点选择
+  - DOMAIN-SUFFIX,openai.com,🚀 节点选择
   - DOMAIN-SUFFIX,ping.pe,🚀 节点选择
   - DOMAIN-SUFFIX,reddit.com,🚀 节点选择
   - DOMAIN-SUFFIX,teddysun.com,🚀 节点选择
@@ -2618,6 +2762,8 @@ rules:
   - DOMAIN-SUFFIX,icntv.xyz,🚀 节点选择
   - DOMAIN-SUFFIX,flzbcdn.xyz,🚀 节点选择
   - DOMAIN-SUFFIX,ocnttv.com,🚀 节点选择
+  - DOMAIN-SUFFIX,vikacg.com,🚀 节点选择
+  - DOMAIN-SUFFIX,picjs.xyz,🚀 节点选择
   - DOMAIN-SUFFIX,13th.tech,🎯 全球直连
   - DOMAIN-SUFFIX,423down.com,🎯 全球直连
   - DOMAIN-SUFFIX,bokecc.com,🎯 全球直连
@@ -2788,6 +2934,7 @@ rules:
   - DOMAIN-SUFFIX,douyuscdn.com,🎯 全球直连
   - DOMAIN-SUFFIX,douyutv.com,🎯 全球直连
   - DOMAIN-SUFFIX,epicgames.com,🎯 全球直连
+  - DOMAIN-SUFFIX,epicgames.dev,🎯 全球直连
   - DOMAIN-SUFFIX,helpshift.com,🎯 全球直连
   - DOMAIN-SUFFIX,paragon.com,🎯 全球直连
   - DOMAIN-SUFFIX,unrealengine.com,🎯 全球直连
@@ -3046,8 +3193,6 @@ rules:
   - DOMAIN-SUFFIX,clouddn.com,🎯 全球直连
   - DOMAIN-SUFFIX,cloudxns.net,🎯 全球直连
   - DOMAIN-SUFFIX,cn163.net,🎯 全球直连
-  - DOMAIN-SUFFIX,cnbeta.com,🎯 全球直连
-  - DOMAIN-SUFFIX,cnbetacdn.com,🎯 全球直连
   - DOMAIN-SUFFIX,cnblogs.com,🎯 全球直连
   - DOMAIN-SUFFIX,cnki.net,🎯 全球直连
   - DOMAIN-SUFFIX,cnmstl.net,🎯 全球直连
