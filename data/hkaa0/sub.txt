@@ -1,6 +1,6 @@
 ####################################
 # 创建者：五叶节点分享 http://t.me/hkaa0
-# 客户端：Surfboard
+# 客户端：Surge
 # 创建时间：2023-03-05 
 # 使用模版：ACL4SSR_Online.ini
 # 节点数量：10
@@ -8,25 +8,37 @@
 
 [General]
 loglevel = notify
-interface = 127.0.0.1
-skip-proxy = 127.0.0.1, 192.168.0.0/16, 10.0.0.0/8, 172.16.0.0/12, 100.64.0.0/10, localhost, *.local
-ipv6 = false
-dns-server = system, 223.5.5.5
+bypass-system = true
+skip-proxy = 127.0.0.1,192.168.0.0/16,10.0.0.0/8,172.16.0.0/12,100.64.0.0/10,localhost,*.local,e.crashlytics.com,captive.apple.com,::ffff:0:0:0:0/1,::ffff:128:0:0:0/1
+#DNS设置或根据自己网络情况进行相应设置
+bypass-tun = 192.168.0.0/16,10.0.0.0/8,172.16.0.0/12
+dns-server = 119.29.29.29,223.5.5.5,218.30.19.40,61.134.1.4
+external-controller-access = password@0.0.0.0:6170
+http-api = password@0.0.0.0:6171
+test-timeout = 5
+http-api-web-dashboard = true
 exclude-simple-hostnames = true
-enhanced-mode-by-rule = true
+allow-wifi-access = true
+http-listen = 0.0.0.0:6152
+socks5-listen = 0.0.0.0:6153
+wifi-access-http-port = 6152
+wifi-access-socks5-port = 6153
+
+[Script]
+http-request https?:\/\/.*\.iqiyi\.com\/.*authcookie= script-path=https://raw.githubusercontent.com/NobyDa/Script/master/iQIYI-DailyBonus/iQIYI.js
 
 [Proxy]
 DIRECT = direct
-五叶节点分享 http://t.me/hkaa0_1 = vmess, 172.64.132.83, 2095, username = d1baf2c8-4b0b-400d-8e08-b1a2ff149fa3, ws = true, tls = false, vmess-aead = true, ws-path = /TG:@hkaa0, ws-headers = Host:"lin.d.sg.wyhkaa0.gq", skip-cert-verify = true, tfo = false
-五叶节点分享 http://t.me/hkaa0_2 = vmess, ip.sb, 2095, username = d1baf2c8-4b0b-400d-8e08-b1a2ff149fa3, ws = true, tls = false, vmess-aead = true, ws-path = /TG:@hkaa0, ws-headers = Host:"lin.d.sg.wyhkaa0.gq", skip-cert-verify = true, tfo = false
-五叶节点分享 http://t.me/hkaa0_3 = vmess, ping.pe, 2095, username = d1baf2c8-4b0b-400d-8e08-b1a2ff149fa3, ws = true, tls = false, vmess-aead = true, ws-path = /TG:@hkaa0, ws-headers = Host:"lin.d.sg.wyhkaa0.gq", skip-cert-verify = true, tfo = false
-五叶节点分享 http://t.me/hkaa0_4 = vmess, carro.co, 2095, username = d1baf2c8-4b0b-400d-8e08-b1a2ff149fa3, ws = true, tls = false, vmess-aead = true, ws-path = /TG:@hkaa0, ws-headers = Host:"lin.d.sg.wyhkaa0.gq", skip-cert-verify = true, tfo = false
-五叶节点分享 http://t.me/hkaa0_5 = vmess, ipchicken.com, 2095, username = d1baf2c8-4b0b-400d-8e08-b1a2ff149fa3, ws = true, tls = false, vmess-aead = true, ws-path = /TG:@hkaa0, ws-headers = Host:"lin.d.sg.wyhkaa0.gq", skip-cert-verify = true, tfo = false
-五叶节点分享 http://t.me/hkaa0_6 = vmess, drive.sg, 2095, username = d1baf2c8-4b0b-400d-8e08-b1a2ff149fa3, ws = true, tls = false, vmess-aead = true, ws-path = /TG:@hkaa0, ws-headers = Host:"lin.d.sg.wyhkaa0.gq", skip-cert-verify = true, tfo = false
-五叶节点分享 http://t.me/hkaa0_7 = vmess, www.iproperty.com.sg, 2095, username = d1baf2c8-4b0b-400d-8e08-b1a2ff149fa3, ws = true, tls = false, vmess-aead = true, ws-path = /TG:@hkaa0, ws-headers = Host:"lin.d.sg.wyhkaa0.gq", skip-cert-verify = true, tfo = false
-五叶节点分享 http://t.me/hkaa0_8 = vmess, online-video-cutter.com, 2095, username = d1baf2c8-4b0b-400d-8e08-b1a2ff149fa3, ws = true, tls = false, vmess-aead = true, ws-path = /TG:@hkaa0, ws-headers = Host:"lin.d.sg.wyhkaa0.gq", skip-cert-verify = true, tfo = false
-五叶节点分享 http://t.me/hkaa0_9 = vmess, www.dachu.co, 2095, username = d1baf2c8-4b0b-400d-8e08-b1a2ff149fa3, ws = true, tls = false, vmess-aead = true, ws-path = /TG:@hkaa0, ws-headers = Host:"lin.d.sg.wyhkaa0.gq", skip-cert-verify = true, tfo = false
-五叶节点分享 http://t.me/hkaa0_10 = vmess, m.sgcarmart.com, 2095, username = d1baf2c8-4b0b-400d-8e08-b1a2ff149fa3, ws = true, tls = false, vmess-aead = true, ws-path = /TG:@hkaa0, ws-headers = Host:"lin.d.sg.wyhkaa0.gq", skip-cert-verify = true, tfo = false
+五叶节点分享 http://t.me/hkaa0_1 = vmess, 172.64.132.83, 2095, username = d1baf2c8-4b0b-400d-8e08-b1a2ff149fa3, tls = false, vmess-aead = true, tls13 = false, ws = true, ws-path = /TG:@hkaa0, ws-headers = host:"lin.d.sg.wyhkaa0.gq", sni = 172.64.132.83, skip-cert-verify = true, tfo = false, udp-relay = false
+五叶节点分享 http://t.me/hkaa0_2 = vmess, ip.sb, 2095, username = d1baf2c8-4b0b-400d-8e08-b1a2ff149fa3, tls = false, vmess-aead = true, tls13 = false, ws = true, ws-path = /TG:@hkaa0, ws-headers = host:"lin.d.sg.wyhkaa0.gq", sni = ip.sb, skip-cert-verify = true, tfo = false, udp-relay = false
+五叶节点分享 http://t.me/hkaa0_3 = vmess, ping.pe, 2095, username = d1baf2c8-4b0b-400d-8e08-b1a2ff149fa3, tls = false, vmess-aead = true, tls13 = false, ws = true, ws-path = /TG:@hkaa0, ws-headers = host:"lin.d.sg.wyhkaa0.gq", sni = ping.pe, skip-cert-verify = true, tfo = false, udp-relay = false
+五叶节点分享 http://t.me/hkaa0_4 = vmess, carro.co, 2095, username = d1baf2c8-4b0b-400d-8e08-b1a2ff149fa3, tls = false, vmess-aead = true, tls13 = false, ws = true, ws-path = /TG:@hkaa0, ws-headers = host:"lin.d.sg.wyhkaa0.gq", sni = carro.co, skip-cert-verify = true, tfo = false, udp-relay = false
+五叶节点分享 http://t.me/hkaa0_5 = vmess, ipchicken.com, 2095, username = d1baf2c8-4b0b-400d-8e08-b1a2ff149fa3, tls = false, vmess-aead = true, tls13 = false, ws = true, ws-path = /TG:@hkaa0, ws-headers = host:"lin.d.sg.wyhkaa0.gq", sni = ipchicken.com, skip-cert-verify = true, tfo = false, udp-relay = false
+五叶节点分享 http://t.me/hkaa0_6 = vmess, drive.sg, 2095, username = d1baf2c8-4b0b-400d-8e08-b1a2ff149fa3, tls = false, vmess-aead = true, tls13 = false, ws = true, ws-path = /TG:@hkaa0, ws-headers = host:"lin.d.sg.wyhkaa0.gq", sni = drive.sg, skip-cert-verify = true, tfo = false, udp-relay = false
+五叶节点分享 http://t.me/hkaa0_7 = vmess, www.iproperty.com.sg, 2095, username = d1baf2c8-4b0b-400d-8e08-b1a2ff149fa3, tls = false, vmess-aead = true, tls13 = false, ws = true, ws-path = /TG:@hkaa0, ws-headers = host:"lin.d.sg.wyhkaa0.gq", sni = www.iproperty.com.sg, skip-cert-verify = true, tfo = false, udp-relay = false
+五叶节点分享 http://t.me/hkaa0_8 = vmess, online-video-cutter.com, 2095, username = d1baf2c8-4b0b-400d-8e08-b1a2ff149fa3, tls = false, vmess-aead = true, tls13 = false, ws = true, ws-path = /TG:@hkaa0, ws-headers = host:"lin.d.sg.wyhkaa0.gq", sni = online-video-cutter.com, skip-cert-verify = true, tfo = false, udp-relay = false
+五叶节点分享 http://t.me/hkaa0_9 = vmess, www.dachu.co, 2095, username = d1baf2c8-4b0b-400d-8e08-b1a2ff149fa3, tls = false, vmess-aead = true, tls13 = false, ws = true, ws-path = /TG:@hkaa0, ws-headers = host:"lin.d.sg.wyhkaa0.gq", sni = www.dachu.co, skip-cert-verify = true, tfo = false, udp-relay = false
+五叶节点分享 http://t.me/hkaa0_10 = vmess, m.sgcarmart.com, 2095, username = d1baf2c8-4b0b-400d-8e08-b1a2ff149fa3, tls = false, vmess-aead = true, tls13 = false, ws = true, ws-path = /TG:@hkaa0, ws-headers = host:"lin.d.sg.wyhkaa0.gq", sni = m.sgcarmart.com, skip-cert-verify = true, tfo = false, udp-relay = false
 
 [Proxy Group]
 🚀 节点选择 = select, ♻️ 自动选择, DIRECT, 五叶节点分享 http://t.me/hkaa0_1, 五叶节点分享 http://t.me/hkaa0_2, 五叶节点分享 http://t.me/hkaa0_3, 五叶节点分享 http://t.me/hkaa0_4, 五叶节点分享 http://t.me/hkaa0_5, 五叶节点分享 http://t.me/hkaa0_6, 五叶节点分享 http://t.me/hkaa0_7, 五叶节点分享 http://t.me/hkaa0_8, 五叶节点分享 http://t.me/hkaa0_9, 五叶节点分享 http://t.me/hkaa0_10
